@@ -1,0 +1,16 @@
+fiat functio numerum principalis (){
+    fiat numerus x=30;
+    fiat numerus num1 = 0;
+    x = 3 + 2 * 4;
+    fiat numerus y = -4;
+    scribe("salve munde!");
+    per(numerus i = 0; i < 5; i += 1){
+        x += 2;
+    }
+    si (x > 10){
+        scribe(x);
+    }
+    fiat inventarium numerorum arr = [3];
+
+    redde 0;
+}
